@@ -1,0 +1,12 @@
+# Give us CLI colors
+	export CLICOLOR=1
+	export LSCOLORS=GxFxCxDxBxegedabagaced
+
+# Customized prompt
+	PROMPT_COMMAND='DIR=`pwd|sed -e "s!$HOME!~!"`; if [ ${#DIR} -gt 30 ]; then CurDir=${DIR:0:12}...${DIR:${#DIR}-30}; else CurDir=$DIR; fi'
+	PS1="\t \[\e[0;30m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;34m\]\$CurDir\[\e[0m\]\n\$ "
+
+# Go get aliases
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
