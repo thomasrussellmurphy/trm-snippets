@@ -12,5 +12,4 @@ PREFIXED="$3$SOURCE"
 
 DATE=`date "+%Y%m%dT%H%M%S"`
 mv ~/"Dropbox/Backups/$PREFIXED"*.tgz ~/.Trash/
-tar -czf "$PREFIXED $DATE.tgz" "$SOURCE/"
-mv "$PREFIXED $DATE.tgz" ~/Dropbox/Backups/
+tar -czf "$PREFIXED $DATE.tgz" "$SOURCE/" && mv "$PREFIXED $DATE.tgz" ~/Dropbox/Backups/
