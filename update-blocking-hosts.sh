@@ -8,5 +8,4 @@ mkdir ~/temp
 curl --silent http://someonewhocares.org/hosts/hosts > ~/temp/hosts
 chown root ~/temp/hosts
 mv /etc/hosts /etc/hosts~ && mv ~/temp/hosts /etc/hosts && echo "Updated blocking hosts."
-rm ~/temp/hosts
 rmdir ~/temp
