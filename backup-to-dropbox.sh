@@ -1,5 +1,6 @@
 #!/bin/bash
 # Usage: backup-to-dropbox.sh path/containing/target "target dir" ["backup prefix " ]
+# Ex: backup-to-dropbox.sh "Library/Thunderbird/Profiles/" "td0y4mcv.default" "Thunderbird Profile "
 ## Note: error on first `mv` is expected for first backups or new name
 ## Note: need trailing space on prefix if desired
 ## WARNING: Do NOT omit argument $2, you will EMPTY ~/Dropbox/Backups/
