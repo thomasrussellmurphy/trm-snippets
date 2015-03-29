@@ -1,0 +1,12 @@
+Datasheets/*
+*.*~
+*.*-
+gerb/*
+*.zip
+*.png
+*.pdf
+*.svg
+*.bak
+*.net
+*.cmd
+*.new.*
