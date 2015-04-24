@@ -7,6 +7,7 @@ syntax: glob
 *.png
 *.bbl
 *.blg
+*.out
 */*.sty
 */*.cls
 *.*~
