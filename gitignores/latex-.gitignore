@@ -5,6 +5,8 @@ syntax: glob
 *.log
 *.dvi
 *.png
+*.bbl
+*.blg
 */*.sty
 */*.cls
 *.*~
