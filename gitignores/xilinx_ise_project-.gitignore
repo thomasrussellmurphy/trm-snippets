@@ -20,7 +20,7 @@ xst
 *.drc
 *.gise
 *.html
-*.ise  # Old version of project file, using *.isex now
+*.ise  # Old version of project file, using *.xise now
 *.lso
 *.map
 *.mrp
