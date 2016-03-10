@@ -26,6 +26,7 @@ timing
 *.cdf
 *.cmp
 *.done
+*.dpf
 *.eqn
 *.hex
 *.html
@@ -51,3 +52,6 @@ timing
 *rtl_netlist
 *sopc_*
 PLLJ_PLLSPE_INFO.txt
+
+# Ignore Terasic-generated markup
+*.htm
