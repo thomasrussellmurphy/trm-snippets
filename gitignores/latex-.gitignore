@@ -1,13 +1,14 @@
-syntax: glob
-.DS_Store
-*.pdf
-*.aux
-*.log
-*.dvi
-*.png
-*.bbl
-*.blg
-*.out
-*/*.sty
-*/*.cls
+# .gitignore for a LaTeX/BibLaTeX/Biber project
 *.*~
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.log
+*.out
+*.pdf
+*.png
+*.run.xml
+*/*.cls
+*/*.sty
