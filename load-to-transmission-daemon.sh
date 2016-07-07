@@ -13,5 +13,11 @@ fi
 
 for filename in "$1"*.torrent; do
     transmission-remote --authenv --add "$filename"
-    rm "$filename"
+    if [ $? -eq 0 ]; then
+		echo "Removing $filename"
+		rm "$filename"
+	else
+		echo "Retaining $filename"
+	fi
+
 done
