@@ -3,6 +3,9 @@
 # using transmission-remote and environment authentication
 # Could also use '--netrc' with corresponding external configuration
 
+# Usage: load-to-transmission-daemon.sh torrent/path/
+# **Requires trailing '/' to search whole directory for '*.torrent'
+
 if [ -z "$TR_AUTH" ]; then
 	echo "Must set TR_AUTH in local environment to access transmission-daemon"
 	exit 1
