@@ -8,7 +8,7 @@ if [ -z "$TR_AUTH" ]; then
 	exit 1
 fi
 
-for filename in "$1"; do
-    transmission-remote --authenv --add "filename"
-    rm "filename"
+for filename in "$1"*.torrent; do
+    transmission-remote --authenv --add "$filename"
+    rm "$filename"
 done
